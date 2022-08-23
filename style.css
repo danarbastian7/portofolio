@@ -1,4 +1,4 @@
-
+/* 
 header{
     width: inherit;
     text-align: center;
@@ -49,4 +49,66 @@ header{
   width: 1000px;
     float: right;
    align-content:space-between;
+} */
+
+header{
+  overflow: hidden;
+  background-color:white;
+  color: black;
+  padding: 20px 10px;
+  height: auto;
+  width: auto;
+  font-size: 12px;
+  display:flex;
+  grid-column: auto;
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
 }
+header h1{
+  margin: 0.25%;
+  text-align: center;
+
+
+
+}
+
+body {
+    background: #1B1B25;
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  
+  .separator {
+    width: 30%;
+  }
+  
+  .title {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+
+     
+    }
+    
+    hr {
+      width: 75%;
+    }
+
+  .summary {
+    padding: 20px;
+    text-align: center;
+    
+  }
+  
+  
+  .work-experience {
+    padding: 10px;
+    font-size: 20px;
+
+  }
+  .experience-summary {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      font-size: 16px;
+    }
